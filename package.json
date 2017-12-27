@@ -1,10 +1,10 @@
 {
-  "name": "@servexyz/npm-starter",
-  "version": "1.0.0",
-  "description": "Barebones NodeJS starter package for publishing ES6 to npmjs.com",
+  "name": "style-generator-cli",
+  "version": "0.1.0",
+  "description": "CLI used in conjunction with style-generator-lib",
   "main": "./dist/index.js",
   "repository": {
-    "url": "https://github.com/servexyz/open-source",
+    "url": "https://github.com/servexyz/style-generator-cli",
     "type": "git"
   },
   "scripts": {
@@ -22,14 +22,10 @@
     "nyc": "^10.1.2"
   },
   "babel": {
-    "presets": [
-      "es2015"
-    ]
+    "presets": ["es2015"]
   },
   "ava": {
-    "files": [
-      "./src/test.js"
-    ],
+    "files": ["./src/test.js"],
     "failFast": false,
     "tap": false,
     "babel": "inherit"
